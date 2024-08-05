@@ -39,7 +39,7 @@ describe('Task Manager', () => {
       
     ;
   });
-
+ 
   test('should fetch all tasks', () => {
     const allTasks = getAllTasks();
     expect(allTasks).toEqual(
@@ -101,4 +101,7 @@ describe('Task Manager', () => {
       expect.objectContaining({ title: 'Basic Git' })
     );
   });
+   
+  
+
 });
